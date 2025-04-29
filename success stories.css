@@ -1,0 +1,94 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f8;
+    margin: 0;
+    padding: 30px;
+    color: #333;
+  }
+  .page-title {
+    text-align: center;
+    font-size: 2.2em;
+    color: #0077b6;
+    margin-bottom: 40px;
+  }
+  
+img {
+  width: 90px;
+  height: 90px;
+  padding: 20px;
+  border-radius: 50%;
+}
+  
+  .submit-review-box {
+    background-color: #ffffff;
+    padding: 30px;
+    margin: 50px auto 0 auto;
+    border-radius: 15px;
+    max-width: 700px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .submit-review-box h2 {
+    color: #0077b6;
+    margin-bottom: 20px;
+  }
+  
+  .review-form textarea {
+    width: 100%;
+    height: 120px;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 1rem;
+    resize: none;
+  }
+  
+  .form-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .form-row label {
+    font-weight: bold;
+  }
+  
+  .form-row select {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .review-form button {
+    background-color: #00b4d8;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .review-form button:hover {
+    background-color: #0077b6;
+  }
+  
+  a {
+    color: #0077b6;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #023e8a;
+    text-decoration: underline;
+}
+  
